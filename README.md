@@ -1,5 +1,5 @@
 # BeatForBeat
-Simple implementation of a system similar to the Norwegian music show Beat for Beat.
+Simple implementation of a system similar to the Norwegian music show Beat for Beat. [Demo here](https://lagostra.github.io/BeatForBeat/).
 
 # Usage
 Simply download all the files to a location on your computer, and open index.html in your favourite browser to use the program.
