@@ -1,0 +1,50 @@
+/* CSS Document */
+
+html, body {
+	background: black;
+	margin: 0;
+	height: 100%;
+}
+
+.wrapper {
+	position: relative;
+	text-align: center;
+	height: 100%;
+}
+
+#boxes {
+	display: inline-block;
+	list-style: none;
+	
+	margin: 0;
+	height: 200px;
+	padding: 5px;
+	
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	position: relative;
+}
+
+#boxes li {
+	background: white;
+	color: black;
+	display: inline-block;
+	height: 140px;
+	width: 270px;
+	margin: 5px;
+	padding-top: 60px;
+	font-size: 60px;
+	
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	
+	cursor: default;
+}
+
+#boxes li.red {
+	color: red;
+}
